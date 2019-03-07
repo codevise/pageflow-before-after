@@ -23,6 +23,9 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'jquery-ui-rails', '~> 5.0'
 
+  spec.add_development_dependency 'pageflow-support', '~> 13.6.x'
+  spec.add_development_dependency 'rspec-rails', '~> 3.0'
+
   # Semantic versioning rake tasks
   spec.add_development_dependency 'semmy', '~> 1.0'
 end
