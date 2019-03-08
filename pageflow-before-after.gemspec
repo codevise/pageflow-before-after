@@ -18,12 +18,12 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '~> 2.1'
 
-  spec.add_dependency 'pageflow', ['>= 0.11', '< 14']
+  spec.add_dependency 'pageflow', '~> 14.x'
   spec.add_dependency 'pageflow-public-i18n', '~> 1.8'
 
   spec.add_dependency 'jquery-ui-rails', '~> 5.0'
 
-  spec.add_development_dependency 'pageflow-support', '~> 13.6.x'
+  spec.add_development_dependency 'pageflow-support', '~> 14.x'
   spec.add_development_dependency 'rspec-rails', '~> 3.0'
 
   # Semantic versioning rake tasks

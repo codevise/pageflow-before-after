@@ -34,7 +34,7 @@
       var beforeImg = $('.before_image', obj);
       var afterImg = $('.after_image', obj);
 
-      var section = $(obj).parentsUntil(".backgroundArea").last();
+      var section = $(obj).parentsUntil(".page_background").last();
 
       var imgWidth;
       var imgHeight;

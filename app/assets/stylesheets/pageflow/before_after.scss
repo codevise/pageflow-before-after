@@ -56,15 +56,13 @@
 }
 
 .page .beforeAfterPage {
-
-  .videoWrapper {
+  .uncropped_media_wrapper {
     height: 100%;
   }
 
   .shadow {
     z-index: 1;
   }
-
 }
 
 .hideText .beforeAfterPage  .before_wrapper {
@@ -78,8 +76,7 @@
 }
 
 .js .beforeAfterPage {
-
-  .contentText {
+  .page_text {
     margin-bottom: 200px;
 
     @include phone {
