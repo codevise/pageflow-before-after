@@ -32,7 +32,12 @@ pageflow.pageType.register('before_after', _.extend({
   },
 
   resize: function(pageElement, configuration) {
-    pageElement.find(".before_after").before_after("refresh");
+    var beforeAfterElement = pageElement.find('.before_after');
+
+    if (beforeAfterElement.before_after('instance')) {
+      beforeAfterElement.before_after('refresh');
+    }
+
     pageElement.find('.scroller').scroller("refresh");
   },
 
