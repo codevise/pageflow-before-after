@@ -1,9 +1,9 @@
 # Pageflow Before After
 
 [![Gem Version](https://badge.fury.io/rb/pageflow-before-after.svg)](http://badge.fury.io/rb/pageflow-before-after)
-[![Build Status](https://travis-ci.org/codevise/pageflow-before-after.svg?branch=master)](https://travis-ci.org/codevise/pageflow-before-after)
+[![Build Status](https://github.com/codevise/pageflow-before-after/workflows/tests/badge.svg)](https://github.com/codevise/pageflow-before-after/actions)
 
-Page type showing before/after image sliders (Digit style).
+Page type showing before/after image sliders.
 
 ## Installation
 
