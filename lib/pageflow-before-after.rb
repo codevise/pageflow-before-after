@@ -1,4 +1,5 @@
 require 'pageflow/before_after/engine'
+require 'pageflow/before_after/version'
 
 module Pageflow
   module BeforeAfter
